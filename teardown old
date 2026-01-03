@@ -1,0 +1,15 @@
+import fs from 'fs';
+import path from 'path';
+
+export default async () => {
+  const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+
+  const source = path.join(process.cwd(), 'playwright-report');
+  const archiveBase = path.join(process.cwd(), 'playwright-report-history');
+  const target = path.join(archiveBase, `run-${timestamp}`);
+
+  if (fs.existsSync(source)) {
+    fs.mkdirSync(target, { recursive: true });
+    fs.cpSync(source, target, { recursive: true });
+  }
+};

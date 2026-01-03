@@ -1,0 +1,10 @@
+🔥 Before ALL tests (once)
+➡️ Before test: has title
+Before Test
+⬅️ After test: has title | Status: failed
+After Test
+title: has title
+Status: failed
+expectedStatus: passed
+retry: 0
+🧹 After ALL tests (once)

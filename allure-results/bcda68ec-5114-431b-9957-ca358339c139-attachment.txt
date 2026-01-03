@@ -1,0 +1,10 @@
+Before Test
+screenshotPath: has title-1767260353394.png
+test completed
+test completed
+has title
+After Test
+title: has title
+Status: passed
+expectedStatus: passed
+retry: 0

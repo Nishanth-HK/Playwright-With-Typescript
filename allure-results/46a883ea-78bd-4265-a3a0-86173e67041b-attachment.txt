@@ -1,0 +1,14 @@
+🔥 Before ALL tests (once)
+➡️ Before test: has title
+Before Test
+screenshotPath: has title-1767252188894.png
+test completed
+test completed
+has title
+⬅️ After test: has title | Status: passed
+After Test
+title: has title
+Status: passed
+expectedStatus: passed
+retry: 0
+🧹 After ALL tests (once)

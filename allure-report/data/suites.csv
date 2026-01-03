@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","12644","has title","chromium","2026-01-01","passed","2026-01-01","","Smoke\example.spec.ts","",""
+"","15391","has title","chromium","2026-01-01","passed","2026-01-01","","Smoke\example2.spec.ts","",""
+"","2371","has title","chromium","2026-01-01","passed","2026-01-01","","example2.spec.ts","",""
+"","13325","has title","chromium","2026-01-01","passed","2026-01-01","","example.spec.ts","",""
