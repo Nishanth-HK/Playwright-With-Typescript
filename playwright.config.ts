@@ -24,7 +24,7 @@ export default defineConfig({
  reporter: [['allure-playwright', { open: 'always'}]],
 
   use: {
-    headless: false,
+    headless: true,
     trace: 'on',      
     screenshot: 'only-on-failure',
     video: 'on',
